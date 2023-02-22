@@ -1,0 +1,356 @@
+.p{
+    font-family:Roboto, Arial;;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  } 
+  
+  .preheader{
+      height: 55px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      flex-shrink: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+
+  .header{
+      height: 55px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      flex-shrink: 0;
+      position: fixed;
+      top: 55px;
+      left: 0;
+      right: 0;
+      
+  }
+  .heading {
+      height: 120px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      flex-shrink: 0;
+  }
+  .middle1 {
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      flex: 1; 
+      flex-shrink: 0;
+  }
+  .middle2 {
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      flex-shrink: 0;
+  }
+
+  .lp {
+      background-color: rgb(143, 48, 231);
+      width:200px;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 0;
+  }
+
+  .mp {
+      background-color: blueviolet;
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      flex-shrink: 0;
+
+
+    
+  }
+  .ls {
+      background-color: rgb(22, 22, 22);
+      width:200px;
+      display: flex;
+      flex-direction: row; 
+      flex-shrink: 0;
+      
+  }
+  .ms {
+      background-color: rgb(0, 0, 0);
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 0;
+      
+      
+  }
+  .rs {
+      background-color: rgb(22, 22, 22);
+      width:200px  ;
+      flex-shrink: 0;
+      
+  }
+  .search-bar {
+      background-color: blueviolet;
+      margin-top: 12px;
+      margin-left: 0px;
+      background-color: white;
+      outline: none;
+      border-radius: 30px;
+      border: 0;
+      flex: 1;
+      height: 35px;
+      width: 90px;
+      
+  }
+  .search-bar::placeholder {
+      color: rgb(0, 0, 0);
+      padding-left: 15px;
+      font-weight: 520;
+      font-family: 'roboto', sans-serif;
+  }
+  .search-bar:focus {
+      width: 655px; 
+      transition: 2s;
+      background-color: rgb(248, 25, 62);
+      color: white; 
+      font-size: 18px;
+      margin-left: 12px;  
+  }
+  
+  .rp {
+      background-color: rgb(143, 48, 231);
+      width:200px  ;
+      flex-shrink: 0;
+  }
+  .home {
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+      flex-shrink: 0;    
+  }
+  .home:hover{
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      
+      margin-left: 10px;
+  }
+  .represent {
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+      flex-shrink: 0;
+     
+  }
+  .represent:hover {
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      
+      margin-top: 10px; 
+  }
+  .cool {
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+      margin-left: 10px;
+      flex-shrink: 0;    
+  }
+  .cool:hover {
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      margin-top: 10px;
+      
+  }
+  .my {
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+      margin-right: 10px; 
+      flex-shrink: 0;
+  }
+  .my:hover {
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      margin-top: 10px;
+      
+  }
+  .vil {
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+      flex-shrink: 0;
+         
+  }
+  .vil:hover{
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      margin-top: 10px;
+         
+  }
+  .b1 {
+      font-size: 40px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0; 
+      flex-shrink: 0;   
+  }
+  .b1:hover {
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      margin-top: 10px;    
+  }
+  .spacer {
+      margin-left: 2px;
+  }
+  .b2 {
+      font-size: 40px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 0;
+  }
+  .b2:hover {
+      color: rgb(248, 25, 62);
+      transition: 1s;
+      cursor: default;
+      margin-top: 10px;  
+  }
+  .sc {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: normal;
+      
+
+  }
+  .s1 {
+      display: flex;
+      flex-direction: row;
+  }
+  .a1{
+      color: white;
+      font-family: 'roboto', sans-serif;
+      font-size: 18px;
+      width: 120px;
+      border-radius: 30px;
+      border: 0;
+      background-color: rgb(164, 84, 238);
+      font-weight: 600; 
+      margin-left: 70px;   
+  }
+  .a1:hover {
+      background-color: rgb(248, 25, 62);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      transition: 0.8s;
+      
+  }
+  
+  .a2{
+      
+      margin-left: 100px;
+      color: white;
+      font-family: 'roboto', sans-serif;
+      font-size: 18px;
+      width: 120px;
+      border-radius: 30px;
+      border: 0;
+      background-color: rgb(164, 84, 238);
+      font-weight: 600;
+  }
+  .a2:hover {
+      background-color: rgb(248, 25, 62);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      transition: 0.8s;
+      
+  }
+  .h {
+      margin-left: 10px;
+  }
+  .middle {
+      margin-left: 340px;
+      flex-shrink: 0;
+  }
+  .hif {
+      display: inline-block;
+      flex-shrink: 0;
+  }
+  .bio {
+      color: white;
+      flex-shrink: 0;
+      
+  }
+  .sly {
+      color: white;
+      font-family: 'roboto', sans-serif;
+      margin-bottom: 0;
+      margin-left: 30px;
+      font-size: 19px;
+      flex-shrink: 0;
+  }
+  .sl {
+      color: white;
+      font-family: 'roboto', sans-serif;
+      margin-top: 0; 
+      margin-left: 30px; 
+      font-size: 19px;
+      flex-shrink: 0;
+  }
+  .sly:hover {
+      color:rgb(0, 255, 34) ;
+      cursor: default;
+      transition: 3s;
+  }
+  .sl:hover {
+      color:rgb(0, 255, 34) ;
+      cursor: default;
+      transition: 3s;
+  }
+  .st {
+      color: white;
+      font-family: 'roboto', sans-serif;
+      margin-top: 0; 
+      margin-left: 30px; 
+      font-size: 19px;
+      margin-top: 20px;
+      flex-shrink: 0;
+  }
+  .st:hover {
+      color:rgb(0, 255, 34) ;
+      cursor: default;
+      transition: 3s; 
+  }
+  .s1w {
+      margin-left: 10px;
+      flex-shrink: 0;
+  }
+
+  
