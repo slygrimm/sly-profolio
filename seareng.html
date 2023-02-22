@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>sly profolio</title>
+    <style>
+        .p{
+          font-family:Roboto, Arial;;
+          margin-top: 0px;
+          margin-bottom: 0px;
+
+        } 
+        
+        .preheader{
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            flex-shrink: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .header{
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            flex-shrink: 0;
+            position: fixed;
+            top: 55px;
+            left: 0;
+            right: 0;
+            
+        }
+        .heading {
+            height: 120px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            flex-shrink: 0;
+        }
+        .middle1 {
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            flex: 1; 
+            flex-shrink: 0;
+        }
+        .middle2 {
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            flex-shrink: 0;
+        }
+
+        .lp {
+            background-color: rgb(143, 48, 231);
+            width:200px;
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+        }
+
+        .mp {
+            background-color: blueviolet;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            flex-shrink: 0;
+
+
+          
+        }
+        .ls {
+            background-color: rgb(22, 22, 22);
+            width:200px;
+            display: flex;
+            flex-direction: row; 
+            flex-shrink: 0;
+            
+        }
+        .ms {
+            background-color: rgb(0, 0, 0);
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            
+            
+        }
+        .rs {
+            background-color: rgb(22, 22, 22);
+            width:200px  ;
+            flex-shrink: 0;
+            
+        }
+        .search-bar {
+            background-color: blueviolet;
+            margin-top: 12px;
+            margin-left: 0px;
+            background-color: white;
+            outline: none;
+            border-radius: 30px;
+            border: 0;
+            flex: 1;
+            height: 35px;
+            width: 90px;
+            
+        }
+        .search-bar::placeholder {
+            color: rgb(0, 0, 0);
+            padding-left: 15px;
+            font-weight: 520;
+            font-family: 'roboto', sans-serif;
+        }
+        .search-bar:focus {
+            width: 655px; 
+            transition: 2s;
+            background-color: rgb(248, 25, 62);
+            color: white; 
+            font-size: 18px;
+            margin-left: 12px;  
+        }
+        
+        .rp {
+            background-color: rgb(143, 48, 231);
+            width:200px  ;
+            flex-shrink: 0;
+        }
+        .home {
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+            flex-shrink: 0;    
+        }
+        .home:hover{
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            
+            margin-left: 10px;
+        }
+        .represent {
+            font-size: 50px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+            flex-shrink: 0;
+           
+        }
+        .represent:hover {
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            
+            margin-top: 10px; 
+        }
+        .cool {
+            font-size: 50px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+            margin-left: 10px;
+            flex-shrink: 0;    
+        }
+        .cool:hover {
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            margin-top: 10px;
+            
+        }
+        .my {
+            font-size: 50px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+            margin-right: 10px; 
+            flex-shrink: 0;
+        }
+        .my:hover {
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            margin-top: 10px;
+            
+        }
+        .vil {
+            font-size: 50px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+            flex-shrink: 0;
+               
+        }
+        .vil:hover{
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            margin-top: 10px;
+               
+        }
+        .b1 {
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0; 
+            flex-shrink: 0;   
+        }
+        .b1:hover {
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            margin-top: 10px;    
+        }
+        .spacer {
+            margin-left: 2px;
+        }
+        .b2 {
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        .b2:hover {
+            color: rgb(248, 25, 62);
+            transition: 1s;
+            cursor: default;
+            margin-top: 10px;  
+        }
+        .sc {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: normal;
+            
+
+        }
+        .s1 {
+            display: flex;
+            flex-direction: row;
+        }
+        .a1{
+            color: white;
+            font-family: 'roboto', sans-serif;
+            font-size: 18px;
+            width: 120px;
+            border-radius: 30px;
+            border: 0;
+            background-color: rgb(164, 84, 238);
+            font-weight: 600; 
+            margin-left: 70px;   
+        }
+        .a1:hover {
+            background-color: rgb(248, 25, 62);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: 0.8s;
+            
+        }
+        
+        .a2{
+            
+            margin-left: 100px;
+            color: white;
+            font-family: 'roboto', sans-serif;
+            font-size: 18px;
+            width: 120px;
+            border-radius: 30px;
+            border: 0;
+            background-color: rgb(164, 84, 238);
+            font-weight: 600;
+        }
+        .a2:hover {
+            background-color: rgb(248, 25, 62);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: 0.8s;
+            
+        }
+        .h {
+            margin-left: 10px;
+        }
+        .middle {
+            margin-left: 340px;
+            flex-shrink: 0;
+        }
+        .hif {
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .bio {
+            color: white;
+            flex-shrink: 0;
+            
+        }
+        .sly {
+            color: white;
+            font-family: 'roboto', sans-serif;
+            margin-bottom: 0;
+            margin-left: 30px;
+            font-size: 19px;
+            flex-shrink: 0;
+        }
+        .sl {
+            color: white;
+            font-family: 'roboto', sans-serif;
+            margin-top: 0; 
+            margin-left: 30px; 
+            font-size: 19px;
+            flex-shrink: 0;
+        }
+        .sly:hover {
+            color:rgb(0, 255, 34) ;
+            cursor: default;
+            transition: 3s;
+        }
+        .sl:hover {
+            color:rgb(0, 255, 34) ;
+            cursor: default;
+            transition: 3s;
+        }
+        .st {
+            color: white;
+            font-family: 'roboto', sans-serif;
+            margin-top: 0; 
+            margin-left: 30px; 
+            font-size: 19px;
+            margin-top: 20px;
+            flex-shrink: 0;
+        }
+        .st:hover {
+            color:rgb(0, 255, 34) ;
+            cursor: default;
+            transition: 3s; 
+        }
+        .s1w {
+            margin-left: 10px;
+            flex-shrink: 0;
+        }
+
+        
+
+    </style>
+</head>
+
+
+<body style="margin: 0;
+padding-top: 110px;">
+    <div class="preheader">
+        <div class="lp">
+            <img style="color: white;
+             height: 40px; cursor: pointer;" src="icons/home.svg" alt="">
+        </div>
+        <div class="mp">
+        <div class="sc">
+            <button class="a1">log in</button>
+            <button class="a2">About</button>
+            <button class="a2">Skills</button>
+            <button class="a2">Email</button>
+        </div>
+    </div>
+        <div class="rp">
+            <div></div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="lp">
+            <p class="home" class="h">H</p>
+            <p class="home">O</p>
+            <p class="home">M</p>
+            <p class="home">E</p>
+        </div>
+        <div class="mp">
+        <div><input class="search-bar" type="text" placeholder="Search"></div>
+    </div>
+        <div class="rp">    
+            <div></div>
+        </div>
+    </div>
+    <div class="rp">
+        <div></div>
+    </div>
+</div>
+
+<div class="heading">
+    <div class="ls">
+        <p class="home"></p>
+    </div>
+    <div class="ms">
+    <div class="sc">
+        <p class="middle">.</p>
+        <p class="represent">S</p>
+        <p class="represent">l</p>
+        <p class="represent">y</p>
+
+        <p class="s1w">.</p>
+
+        <p class="vil">p</p>
+        <p class="vil">r</p>
+        <p class="vil">o</p>
+        <p class="vil">f</p>
+        <p class="vil">o</p>
+        <p class="vil">l</p>
+        <p class="vil">i</p>
+        <p class="vil">o</p>
+    </div> 
+    <div class="hif">
+        <p class="bio"></p>
+    </div>
+    
+
+    
+</div>
+    <div class="rs">
+        <div></div>
+    </div>
+</div>
+
+<div class="middle1">
+    <div class="ls">
+        <p class="home"></p>
+    </div>
+    <div class="ms"> 
+    <div class="s1">
+        <p class="b1">A</p>
+        <p class="b1">b</p>
+        <p class="b1">o</p>
+        <p class="b1">u</p>
+        <p class="b1">t</p>
+
+        <p class="spacer">.</p>
+        <p class="b2">m</p>
+        <p class="b2">e</p>
+        <p class="b2">.</p>
+
+
+
+    </div>       
+
+
+    
+</div>
+    <div class="rs">
+        <div></div>
+    </div>
+</div>
+<div class="middle2">
+    <div class="ls">
+        <p class="home"></p>
+    </div>
+    <div class="ms"> 
+    <div class="s2">
+        <p class="sly">Im sly and this is my profolio</p>
+        <p class="sl">16 years old im on self-improvement currently learning some skill to get some reputation
+            as fast as possible front-end development is what im currently working on i hope this 
+            profolio satisfied you enough im looking for jobs as freelancer
+        </p>
+    </div>       
+
+
+    
+</div>
+    <div class="rs">
+        <div></div>
+    </div>
+</div>
+
+
+
+<div class="middle1">
+    <div class="ls">
+        <p class="home"></p>
+    </div>
+    <div class="ms"> 
+    <div class="s1">
+        <p class="b1">S</p>
+        <p class="b1">k</p>
+        <p class="b1">i</p>
+        <p class="b1">l</p>
+        <p class="b1">l</p>
+        <p class="b1">s</p>
+
+
+
+
+    </div>       
+
+
+    
+</div>
+    <div class="rs">
+        <div></div>
+    </div>
+</div>
+<div class="middle2">
+    <div class="ls">
+        <p class="home"></p>
+    </div>
+    <div class="ms"> 
+    <div class="s2">
+            
+        <p class="st">&#9822; python - Intermediate</p>
+        <p class="st">&#9822; HTML - Intermediate</p>
+        <p class="st">&#9822; CSS - Intermediate</p>
+        <p class="st">&#9823; SASS - Beginner</p>
+        <p class="st">&#9823; JS - Beginner</p>
+            
+        
+    </div>       
+
+
+    
+</div>
+    <div class="rs">
+        <div></div>
+    </div>
+</div>
+
+</body>
+
+
+</html>
